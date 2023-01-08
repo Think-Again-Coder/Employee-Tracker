@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "inquirer": "^9.1.4",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.28.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "employee-tracker",
+  "description": "---\r ## *Description:*",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Think-Again-Coder/Employee-Tracker.git"
+  },
+  "keywords": [],
+  "author": "John Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Think-Again-Coder/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/Think-Again-Coder/Employee-Tracker#readme"
+}
