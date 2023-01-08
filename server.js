@@ -1,21 +1,24 @@
 // Including app dependencies
-const mysql2 = require('mysql2');
-const db = require('./db');
-const inquirer = require('inquirer');
 const cTable = require("console.table");
+const inquirer = require("inquirer");
+const mysql = require("mysql2");
+const db = require('./connection');
 
-// const connection = mysql2.createConnection({
-//     host:'localhost',
-//     port: 3306,
-//     password: '',
-//     database: 'employeedb'
-// });
+const PORT = process.env.PORT || 3001;
 
-function startPrompts() {
+// Connect Throw Error handling
+connection.connect(function(err) {
+    if (err) throw err
+    console.log("Connected as ID");
+    afterConnection();
+});
+
+//first function starting prompts for user.
+function start() {
     inquirer.prompt([
         {
         type: 'list',
-        name: 'start',
+        name: 'start here',
         message: 'What would you like to do?',
         choices: [
             'View All Employees',
@@ -38,4 +41,4 @@ function startPrompts() {
 });
 
 }
-startPrompts();
+start();
