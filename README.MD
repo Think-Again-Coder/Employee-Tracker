@@ -29,7 +29,9 @@ Althought this is currently incomplete you can see that the structure in the SQL
 
 --- 
 **Check out the deployed application:**
-##
-[Employee Tracker Application](https://github.com/Think-Again-Coder/Employee-Tracker) <--- Click Here!
 ## 
+[Employee Tracker Application](https://github.com/Think-Again-Coder/Employee-Tracker) <--- Click Here!
+## You can find my Heroku link here: 
+https://employee-tracker-bcs.herokuapp.com/
+
 ## - John Lopez -
