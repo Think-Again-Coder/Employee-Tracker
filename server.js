@@ -31,8 +31,8 @@ function start() {
     },
         
 ]).then((choices) => {
-    const answers = choices.start;
-    //if statements start here
+    const answers = choices.answers;
+    //
     if (answers === 'View All Employees') {
         viewDepartments();
     } else if (answers === 'View All Roles') {
